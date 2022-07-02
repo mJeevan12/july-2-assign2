@@ -1,0 +1,9 @@
+#write a program to print odd index location from the list
+n=7
+l=[34,5,6,7,45,2,5]
+a=[]
+for i in range(n):
+    if l[i]%2==1:
+        a.append(i)
+for i in a: 
+   print(i)  
